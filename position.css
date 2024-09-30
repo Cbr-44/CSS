@@ -1,0 +1,75 @@
+.d1 {
+  width: 250px;
+  height: 190px;
+  border-top: 3px solid rgb(29, 215, 215);
+  position: absolute;
+  left: 90px;
+  box-shadow: 1px 2px 17px 0px rgba(135, 123, 123, 1);
+  border-radius: 5px;
+  top: 250px;
+  background-color: rgba(100, 214, 212, 0.772);
+  /* color: black; */
+}
+.d2 {
+  width: 250px;
+  height: 190px;
+  border-top: 3px solid rgb(198, 75, 14);
+  position: absolute;
+  left: 400px;
+  box-shadow: 1px 2px 17px 0px rgba(135, 123, 123, 1);
+  border-radius: 5px;
+  top: 130px;
+  background-color: rgba(194, 160, 109, 0.815);
+}
+.d3 {
+  width: 250px;
+  height: 190px;
+  border-top: 3px solid gold;
+  position: absolute;
+  left: 400px;
+  box-shadow: 1px 2px 17px 0px rgba(135, 123, 123, 1);
+  border-radius: 5px;
+  top: 400px;
+  background-color: rgba(188, 188, 86, 0.836);
+}
+.d4 {
+  width: 250px;
+  height: 190px;
+  border-top: 3px solid rgb(0, 255, 55);
+  position: absolute;
+  left: 720px;
+  box-shadow: 1px 2px 17px 0px rgba(135, 123, 123, 1);
+  border-radius: 5px;
+  top: 250px;
+  background-color: rgba(86, 153, 100, 0.772);
+}
+.D {
+  position: absolute;
+  top: 50px;
+  left: 290px;
+  text-align: start;
+}
+.a {
+  padding-left: 10px;
+  line-height: 20px;
+}
+.i1 {
+  position: absolute;
+  left: 190px;
+  bottom: 10px;
+}
+.i2 {
+  position: absolute;
+  left: 180px;
+  bottom: 10px;
+}
+.i3 {
+  position: absolute;
+  left: 190px;
+  bottom: 10px;
+}
+.i4 {
+  position: absolute;
+  left: 190px;
+  bottom: 10px;
+}

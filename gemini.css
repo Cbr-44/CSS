@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 70px 340px 240px 240px 390px;
+    grid-template-rows: 60px 203px 235px 87px;
+    grid-template-areas: 
+    "b a a a a"
+    "b z z z z"
+    "b c d e f"
+    "b g g g g"
+    ;
+}
+.child{
+    background-color: rgb(19, 19, 20);
+}
+.child1{
+    grid-area: a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.child1>p{
+    padding-left: 18px;
+    font-size: 20px;
+}
+.d2{
+    display: flex;
+}
+.try{
+    padding: 2px 16px;
+    border: none;
+    border-radius: 7px;
+    font-size: 12px;
+    position: relative;
+    bottom: 3.5px;
+    background-color: rgb(71, 73, 74);
+    color: white;
+}
+#i1{
+    color: rgb(217, 110, 105);
+}
+.d2>span{
+    padding: 5px 10px 0px 10px;
+    color: white;
+}
+.b{
+    position: relative;
+    width: 2.6vw;
+    height: 6vh;
+    border: none;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    background-color: rgb(0, 151, 167);
+    color: white;
+}
+.child2{
+    grid-area: b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(29, 30, 30);
+
+}
+.m1{
+    display: flex;
+    flex-direction: column;
+}
+.m1>span{
+    padding-top: 20px;
+}
+.m1>button{
+    margin-top: 50px;
+    width: 2.6vw;
+    height: 5.6vh;
+    border: none;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    background-color: rgb(27, 26, 26);
+    color: grey;
+    font-size: 24px;
+    position: relative;
+    top: 0.5px;
+    right: 2.8px;
+}
+.h1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.child3>h1{
+    color: rgb(98, 127, 230);
+}
+#hi1{
+    padding: 20px 0px;
+}
+.h1>span,i{
+    font-size: 16px;
+}
+.child3{
+    grid-area: z;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 25px;
+    padding-left: 220px;
+    color: rgb(96, 127, 230);
+}
+.n{
+    color: rgb(216, 102, 114);
+}
+.o{
+    color: rgb(68, 71, 70);
+}
+.child4{
+    grid-area: c;
+    padding-right: 30px;
+}
+.child4>div{
+    width: 14vw;
+    height: 30vh;
+    border-radius: 10px;
+    position: relative;
+    left: 220px;
+    top: 25px;
+    background-color: rgb(29, 30, 30);
+}
+.para{
+    padding-top: 11px;
+    padding-left: 10px;
+}
+#icon2{
+    position: relative;
+    top: 82px;
+    left: 140px;
+}
+#icon{
+    position: relative;
+    top: 70px;
+    left: 140px;
+}
+#icon1{
+    position: relative;
+    top: 70px;
+    left: 140px;
+}
+.child5{
+    grid-area: d;
+    /* padding: 0px 30px; */
+}
+.child5>div{
+    width: 14vw;
+    height: 30vh;
+    border-radius: 10px;
+    position: relative;
+    left: 66px;
+    top: 25px;
+    background-color: rgb(29, 30, 30);
+}
+.child6{
+    grid-area: e;
+    /* padding: 0px 30px; */
+}
+.child6>div{
+    width: 14vw;
+    height: 30vh;
+    border-radius: 10px;
+    position: relative;
+    left: 12px;
+    top: 25px;
+    background-color: rgb(29, 30, 30);
+}
+.child7{
+    grid-area: f;
+    padding-right: 180px;
+}
+.child7>div{
+    width: 14vw;
+    height: 30vh;
+    border-radius: 10px;
+    position: relative;
+    right: 42px;
+    top: 25px;
+    background-color: rgb(29, 30, 30);
+}
+.child8{
+    grid-area: g;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding-left: 220px;
+    padding-bottom: 10px;
+}
+.child8>div>input{
+    padding: 20px 480px 20px 20px;
+    background-color: rgb(29, 30, 30);
+    border: none;
+    border-radius: 30px;
+
+}
+.child8>div>span{
+    position: relative;
+    top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.child8>div{
+    background-color: rgb(29, 30, 30);
+    border-radius: 30px;
+}
+.child8>p{
+    margin-top: 5px;
+    padding-left: 50px;
+    font-size: 11.5px;
+}

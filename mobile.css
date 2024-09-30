@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", "arial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+.divv{
+    height: 90vh;
+    width: 61vw;
+    margin-left: 250px;
+    margin-top: 20px;
+    background-color: rgb(26, 188, 118);
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.nav1{
+    display: flex;
+    margin-left: 20px;
+}
+.nav1>p{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.nav2{
+    margin-top: 20px;
+    position: absolute;
+    display: flex;
+    right: 260px;
+}
+.nav2>p{
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.c1{
+    font-size: 41px;
+    letter-spacing: 1.5px;
+}
+.c1>p,span{
+    font-weight: 600;
+}
+span{
+    color: rgb(108, 250, 254);
+}
+.c2{
+    padding: 10px 0px;
+    font-size: 14px;
+    line-height: 19px;
+}
+.c3{
+    display: flex;
+}
+.bt1,.bt2{
+    border: none;
+    color: rgb(12, 159, 165);
+    background-color: white;
+    padding: 12px 24px;
+    margin-right: 10px;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 14px;
+    font-size: 11px;
+}
+i{
+    background-color: white;
+    color: rgb(12, 159, 165);
+    margin-right: 5px;
+}
+img{
+    height: 500px;
+    width: 400px;
+}
+.bt3{
+    border:1px solid;
+    border-color: white;
+    color: white;
+    background-color: rgb(26, 188, 118);
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 11px;
+}
+.b2{
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 32px;
+    margin-left: 29px;
+}
+#icon,#head{
+    margin-top: 5px;
+    color: whitesmoke;
+    padding-left: -2px;
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+}
+.pp{
+    margin-top: 9px;
+}

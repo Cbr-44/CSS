@@ -1,0 +1,48 @@
+#i1{
+    padding-left: 100px;
+    padding-top: 200px;
+}
+.card{
+    width: 380px;
+    border: 0px solid blue;
+    background-color: rgb(224, 224, 223);
+    align-content: center;
+    border-radius: 10px;
+    border: 2px solid rgb(79, 68, 84);
+}
+.m{
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 25px;
+}
+.n{
+line-height: 5px;
+width: 150px;
+}
+.o{
+    padding-left: 80px;
+    padding-right: 10px;
+}
+table{
+    background-color: rgb(195, 199, 197);
+    border-radius: 20px;
+    padding-left: px;
+}
+button{
+    margin-top: 10px;
+    padding: 8px 40px;
+    border: none;
+    outline: none;
+    background-color: rgb(49, 49, 209);
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0px 6px 5px 0px rgba(70,72,171,1);
+}
+.can{
+    margin-top: -5px;
+}
+body{
+    padding-left: 420px;
+    margin-top: 30px;
+    background-color: rgb(218, 215, 212);
+}
